@@ -1,0 +1,49 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+}
+
+.App {
+    position: relative;
+    height: 100%;
+}
+
+.Stage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+}
+
+.Stage__paddle {
+}
+
+.Stage__ball {
+}
+
+.Status {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.Overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
